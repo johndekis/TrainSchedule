@@ -1,0 +1,47 @@
+body {
+    background-image: url("images/station.jpeg")
+}
+
+h1, h3 {
+    text-shadow: 4px 4px 4px red;
+}
+
+.jumbotron, .panel .panel-heading, .btn  {
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+    }
+
+.panel .panel-heading h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.form-control:focus {
+    border-color: darkred;
+    box-shadow: 0 0 8px darkred;
+}
+
+label {
+    color: darkred;
+    font-size: 16px;
+
+}
+
+th {
+    color: darkred;
+    font-size: 16px;
+    border-left: 3px solid darkred;
+}
+
+th, td {
+    font-weight: bold;
+}
+
+
+
+.btn-default:hover {
+    border-color: darkred;
+    background-color: rgb(216, 39, 39);
+    color: darkred;
+}
